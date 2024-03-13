@@ -84,11 +84,11 @@
                 <form action="Nombre" method="post" enctype="multipart/form-data" action="enviar.php">
 
                     <div>
-                        <input type="text" name="nombre" autocomplete="off" placeholder="NOMBRE" pattern="[a-z][A-Z]" title="Debe de seguir las normas de composición indicadas" required>
+                        <input type="text" name="nombre" autocomplete="off" placeholder="NOMBRE" pattern="[a-Z]" title="Debe de seguir las normas de composición indicadas" required>
                     </div>
 
                     <div>
-                        <input type="email" name="CORREO" autocomplete="off" placeholder="CORREO()CORREO@EMAIL.COM" pattern=".+@example\.com" title="Debe de seguir las normas de composición indicadas" required>
+                        <input type="email" name="CORREO" autocomplete="off" placeholder="CORREO()CORREO@EMAIL.COM" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" title="Debe de seguir las normas de composición indicadas" required>
                     </div>  
 
                     <div>

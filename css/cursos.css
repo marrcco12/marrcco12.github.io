@@ -1,0 +1,119 @@
+.cabecera {
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.cabecera h1 {
+    font-size: 50px;
+    font-style: oblique;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+.imagenLeft img {
+    float: left;
+    margin-left: 20px;
+    margin-top: 10px;
+    align-items: center;
+    width: 49%;
+    height: auto;
+}
+
+.textoRight {
+    float: left;
+    margin-left: 50px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 40%;
+
+}
+
+.falsificaciones h2{
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+    margin-top: 80px
+}
+
+.texto-negrita {
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+
+.textoNormal {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+button{
+    float: right;
+    margin-top: 30px;
+    background-color: black;
+    color: white;
+    font-size: 16px;    
+    font-weight: bold;
+    padding: 5px 40px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    
+}
+
+button a{
+    text-decoration: none;
+    color: white;
+}
+
+button:hover{
+    background-color: grey;
+    color: white;
+}
+
+/*--------------------------------------------------------*/
+
+.imagenRight img {
+    float: right;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    align-items: center;
+    width: 47%;
+    height: auto;
+
+}
+
+.textoLeft {
+    float: left;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 40%;
+}
+
+.texto-left > h2{
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+
+}
+
+.diseño h2{
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+    margin-left: 20px;
+}
+
+.textoNormalLeft {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+

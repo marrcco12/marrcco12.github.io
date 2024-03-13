@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="../css/estilomenu.css">
+    <link rel="stylesheet" href="../css/contacto.css">
+</head>
+
+<body>
+    <div class="header">
+
+        <div class="CajaIzquierda">
+            <div>
+                <a href="../Index.html"><img class="logoMenu" src="../imagenes/Logo.png" alt="Logo"></a>
+            </div>
+            <div class="letraHeader">
+                <a class="inicioLogo" href="../Index.html"><h2 class="letraLogo">ALL<span>SHOES</span></h2></a>
+            </div>
+        </div>
+
+        <div class="CajaDerecha">
+            <ul class="botones">
+                <li><a href="../Index.html">INICIO</a></li>
+                <li><a href="sobrenosotros.html">SOBRE NOSOTROS</a></li>
+                <li><a href="cursos.html">CURSOS</a></li>
+                <li><a href="tienda.html">TIENDA</a></li>
+                <li><a href="#">CONTACTO</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="cabecera">
+        <h1>CONTACTO</h1>
+    </div>
+
+    <div class="mainContent">
+
+        <div class="cajaIzquierda">
+
+            <div>
+                <h2 class="enunciado">¿TIENES ALGUNA DUDA?</h2>
+
+                <p class="negrita">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil, voluptates.</p>
+
+                <p class="textoNormal">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam aspernatur
+                    consequuntur adipisci
+                    illo vel! Nam, vel vero beatae corrupti facere facilis repellendus inventore repudiandae, minima at
+                    similique esse dignissimos nemo praesentium ullam ab saepe cum dolore quasi commodi sapiente
+                    asperiores iure mollitia blanditiis. Quidem debitis vitae nulla repudiandae quas odio?Lorem ipsum
+                    dolor sit amet consectetur adipisicing elit. Optio voluptates ad velit voluptatum dignissimos itaque
+                    eius reiciendis minima nemo placeat?
+                </p>
+
+                <div>
+                    <h3 class="h3Negrita">E-mail:</h3>
+                    <a class="emailTo" href="mailto:info@allshoes.es?subject=Questions&body=Escribe aquí si tienes preguntas " >info@allshoes.es</a>
+                </div>
+
+                <div>
+                    <h3 class="h3Negrita">Redes Sociales:</h3>
+                </div>
+
+                <div class="logoRedes">
+                    <img id="logo-real" src="../imagenes/Logo.png" alt="">
+                    <a href="https://facebook.com" target="_blank"><img id="facebook" class="iconos" src="../imagenes/RRSS/facebook-icon.png" alt=""></a>
+                    <a href="https://instagram.com" target="_blank"><img id="instagram" class="iconos" src="../imagenes/RRSS/instagram-logo.png" alt=""></a>
+                    <a href="https://web.telegram.org" target="_blank"><img id="telegram" class="iconos" src="../imagenes/RRSS/telegram-icon.png" alt=""></a>
+                    <a href="https://twitter.com" target="_blank"><img id="twitter" class="iconos" src="../imagenes/RRSS/twitter-icon.png" alt=""></a>
+                    <a href="https://whatsapp.com" target="_blank"><img id="whatsapp" class="iconos" src="../imagenes/RRSS/whatsapp-logo.png" alt=""></a>
+                </div>
+
+
+            </div>
+
+        </div>
+
+        <div class="cajaDerecha">
+
+            <div class="formulario">
+
+                <form action="Nombre" method="post" enctype="multipart/form-data" action="enviar.php">
+
+                    <div>
+                        <input type="text" name="nombre" autocomplete="off" placeholder="NOMBRE" pattern="[a-z A-Z]" title="Debe de seguir las normas de composición indicadas" required>
+                    </div>
+
+                    <div>
+                        <input type="email" name="CORREO" autocomplete="off" placeholder="CORREO()CORREO@EMAIL.COM" pattern=".+@example\.com" title="Debe de seguir las normas de composición indicadas" required>
+                    </div>  
+
+                    <div>
+                        <input type="tel" name="telefono" autocomplete="off" placeholder="TELÉFONO(+34 XXX XXX XXX)"  pattern="[0-9]{9}" title="Debe de seguir las normas de composición indicadas" required>
+                    </div>
+
+                    <div>
+                        <select name="Tema" id="eleccion" title="Debe seleccionar una opción" required>
+                            <option class="tema" disabled selected>TEMA</option>
+                            <option value="ErrorCompra">Error de Compra</option>
+                            <option value="ErrorCompra">Problemas con la página</option>
+                            <option value="ErrorCompra">Problemas con el Envío</option>
+                            <option value="ErrorCompra">Otro Problema</option>
+                        </select>
+
+                    </div>
+
+                    <div>
+                        <textarea cols="100" rows="10" name="mensaje" spellcheck="true"
+                            placeholder="MENSAJE"></textarea>
+                    </div>
+
+                    <div class="casilla">
+
+                        <div class="checkbox">
+                            <input class="checkbox" type="checkbox" autocomplete="off" title="Debe aceptar las condiciones" required>
+                        </div>
+
+                        <div class="letraCheck">
+                            <label class="letra-check" for="checkbox">Aceptar <a class="condiciones"
+                                    href="#">Condiciones</a></label>
+                        </div>
+
+                        <button>
+                            <a href="#">ENVIAR</a>
+                        </button>
+
+                    </div>
+
+                </form>
+
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
